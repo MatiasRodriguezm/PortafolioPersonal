@@ -57,15 +57,7 @@ function App() {
                 <FaGithub className='w-5 h-5'/>
               </a>
               <a
-                href="https://www.linkedin.com/in/tuusuario"
-                target="_blank"
-                title='Linkedin'
-                className="text-sm text-white flex items-center gap-2 bg-blue-700 hover:bg-blue-800 transition rounded-3xl px-4 py-2"
-              >
-                <FaLinkedin className='w-5 h-5'/>
-              </a>
-              <a
-                href="/CurriculumMatiasRodriguez.pdf" download="CurriculumMatiasRodriguez.pdf"
+                href="/CurriculumMatiasRodriguez.pdf" download="CurriculumMatiasRodriguez2025.pdf"
                 target="_blank"
                 title='Descargar Curriculum'
                 className="text-sm text-white flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 transition rounded-3xl px-4 py-2"
@@ -77,6 +69,14 @@ function App() {
                 target="_blank"
                 title='Descargar Certificación'
                 className="text-sm text-white flex items-center gap-2 bg-amber-600 hover:bg-amber-700 transition rounded-3xl px-4 py-2"
+              >
+                <GrCertificate className='w-5 h-5'/>
+              </a>
+                            <a
+                href="/CertificadosSantander.pdf" download="CertificadosSantander.zip" 
+                target="_blank"
+                title='Descargar Certificados Santander Open Academy'
+                className="text-sm text-white flex items-center gap-2 bg-fuchsia-700 hover:bg-fuchsia-900 transition rounded-3xl px-4 py-2"
               >
                 <GrCertificate className='w-5 h-5'/>
               </a>
