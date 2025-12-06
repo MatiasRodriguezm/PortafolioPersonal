@@ -17,6 +17,7 @@ import { FaCss3Alt } from "react-icons/fa";
 import { FaJs } from "react-icons/fa"
 import { FaVuejs } from "react-icons/fa6";
 import { FaReact } from "react-icons/fa6";
+import { PiMicrosoftExcelLogo } from "react-icons/pi";
 import './App.css'
 
 function App() {
@@ -57,7 +58,7 @@ function App() {
                 <FaGithub className='w-5 h-5'/>
               </a>
               <a
-                href="/CurriculumMatiasRodriguez.pdf" download="CurriculumMatiasRodriguez2025.pdf"
+                href="/CurriculumMatiasRodriguez2025.pdf" download="CurriculumMatiasRodriguez2025.pdf"
                 target="_blank"
                 title='Descargar Curriculum'
                 className="text-sm text-white flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 transition rounded-3xl px-4 py-2"
@@ -88,9 +89,10 @@ function App() {
         <div className="mt-6 text-left">
           <h2 className="text-2xl font-semibold text-white">Sobre mí</h2>
           <p className="text-zinc-300 mt-2 text-md">
-          Soy un programador al que le gusta la creación de interfaces modernas, 
+          Programador al que le gusta la creación de interfaces modernas, 
           funcionales y responsivas. Me apasiona construir soluciones digitales que combinan diseño y solución, 
-          además de brindar experiencias de usuario excepcionales. Busco expandir mis conocimientos, aprendiendo y 
+          además de brindar experiencias de usuario excepcionales. Además cuento con entendimiento en el área de gestión de proyectos o áreas afines.
+          Busco expandir mis conocimientos, aprendiendo y 
           experimentando en proyectos personales.
           </p>
         </div>
@@ -139,6 +141,13 @@ function App() {
               <FaHtml5 className='w-6 h-6' />
               Html
             </p>
+                        <p
+              title='Excel'
+              className="text-sm text-white flex items-center gap-2 border-2 border-gray-100 hover:bg-emerald-700 transition rounded-3xl px-4 py-2"
+            >
+              <PiMicrosoftExcelLogo className='w-6 h-6' />
+              Excel
+            </p>
             <p
               title='Más'
               className="text-sm text-white flex items-center gap-2 border-2 border-gray-100 hover:bg-emerald-700 transition rounded-3xl px-4 py-2"
@@ -159,6 +168,24 @@ function App() {
                 <p className="text-zinc-400 text-md">
                   Práctica profesional en donde se realizó una página web para administrar arriendos, 
                   mediante la tecnología de Django.
+                </p>
+              </div>
+            </div>
+            <div className="flex justify-between items-start bg-zinc-900 rounded-2xl p-4">
+              <div>
+                <p className="text-xl font-semibold text-white">Universilandia</p>
+                <p className="font-light text-white text-lg">Programador</p>
+                <p className="text-zinc-400 text-md">
+                  Freelance en donde se desarrolló de una página web con React para estudiantes que quieran estudiar una carrera universitaria.
+                </p>
+              </div>
+            </div>
+            <div className="flex justify-between items-start bg-zinc-900 rounded-2xl p-4">
+              <div>
+                <p className="text-xl font-semibold text-white">Condominio San Jorge Etapa 2</p>
+                <p className="font-light text-white text-lg">Programador</p>
+                <p className="text-zinc-400 text-md">
+                  Freelance, se está desarrollando una pagina web para gestionar las finanzas del condominio, como lo son gastos comunes, multas, estacionamientos entre otros. Desarrollado en Next.js.
                 </p>
               </div>
             </div>
